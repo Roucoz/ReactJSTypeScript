@@ -4,11 +4,10 @@ import DefaultTheme from './initials/Themes/DefaultTheme';
 import './App.css';
 import HomeScreen from './screens/HomeScreen/HomeScreen';
 
-
 function App() {
   return (
     <ThemeProvider theme={DefaultTheme}>
-     <HomeScreen />
+      <HomeScreen />
     </ThemeProvider>
   );
 }
